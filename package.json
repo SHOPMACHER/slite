@@ -1,0 +1,25 @@
+{
+  "name": "@shopmacher/slite",
+  "version": "1.0.0",
+  "description": "Slate light for watching Shopify themes.",
+  "main": "lib/index.js",
+  "bin": {
+    "slite": "./lib/index.js"
+  },
+  "keywords": [
+    "shopify",
+    "slate",
+    "light",
+    "shopmacher"
+  ],
+  "author": "Rico Herwig <r.herwig@shopmacher.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@shopify/themekit": "^1.1.2",
+    "chalk": "^2.4.2",
+    "chokidar": "^3.0.2",
+    "commander": "^3.0.1",
+    "lodash.debounce": "^4.0.8",
+    "ora": "^3.4.0"
+  }
+}
